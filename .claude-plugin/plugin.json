@@ -1,0 +1,27 @@
+{
+  "name": "precinct",
+  "displayName": "Precinct",
+  "version": "0.1.0",
+  "description": "A planner, an implementer, and a reviewer that read your repo's profile to specialize.",
+  "author": {
+    "name": "WeTinker",
+    "url": "https://github.com/wetinkerco"
+  },
+  "homepage": "https://github.com/wetinkerco/agent-personas",
+  "repository": "https://github.com/wetinkerco/agent-personas",
+  "license": "MIT",
+  "keywords": [
+    "code-review",
+    "planning",
+    "spec-driven-development",
+    "personas",
+    "subagents"
+  ],
+  "agents": [
+    "./personas/reviewer.md",
+    "./personas/planner.md",
+    "./personas/implementer.md"
+  ],
+  "commands": "./commands/",
+  "skills": "./skills/"
+}

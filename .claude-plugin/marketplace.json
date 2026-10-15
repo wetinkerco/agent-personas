@@ -1,0 +1,24 @@
+{
+  "name": "wetinker",
+  "description": "Engineering agent personas and the patterns behind them, from WeTinker.",
+  "owner": {
+    "name": "WeTinker",
+    "url": "https://github.com/wetinkerco"
+  },
+  "plugins": [
+    {
+      "name": "precinct",
+      "source": "./",
+      "description": "A planner, an implementer, and a reviewer that read your repo's profile to specialize.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "keywords": [
+        "code-review",
+        "planning",
+        "spec-driven-development",
+        "personas",
+        "subagents"
+      ]
+    }
+  ]
+}
